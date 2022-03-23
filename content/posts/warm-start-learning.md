@@ -12,7 +12,7 @@ Below, we describe a handful of techniques that are worth considering when build
 
 The main definition we will have is _warm-start_ learning, as this is the category of techniques I will describe. These techniques are characterized by using a pretrained neural network language model, such as [this one](https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2) from Microsoft. 
 
-1. **Full fine tuning** Freeze none of the weights and simply run your speciic data through to, exactly like training a neural network on a binary classification task (eg. Use cross entropy loss, etc.). Read more about fine tuning [here](https://huggingface.co/docs/transformers/training).
+1. **Full tuning** Freeze none of the weights, run your speciic data through adjust the weights based on gradients computed on cross entropy error, exactly like training a neural network on a binary classification task. Read more about fine tuning in pytorch [here](https://huggingface.co/docs/transformers/training).
 
 1. **Last layer tuning** Freeze all of the weights except the second-to-last last layer, and do the same as the previous step. This is like running logistic regression on the embeddings produced on the pretrained model.
 
@@ -20,8 +20,10 @@ The main definition we will have is _warm-start_ learning, as this is the catego
 
 3. **Nearest neighbor search** Here don't run any training, 1) embed the result and 2) be ready to determine whether the majority of top-k, or top-k% nearest neighbors are "urgent"; if so, label them urgent. k=1 may be a good starting point. Or, time permitting, a validation procedure can be done to select k.
 
-I assume the thesis of HuggingFace was something like:
-
- Model training is hard and takes lots of infrastructure. Infrastructure is costly and push button neural network training is not yet democratized with models of scale. Models are large with - in a growning number of cases and domains beyond NLP, billions of parameters.
+Model training is hard and takes lots of infrastructure. Infrastructure is costly and push button neural network training is not yet democratized with models of scale. Models are large with - in a growning number of cases and domains beyond NLP, billions of parameters.
 
 For most of us data scientists and machine learners, the days training of models from scratch (i.e. determining the "best" way to randomly initialize parameters), are over. Noadays, warm-start learning is what we should expect with complex data. It's now a question of which warm-start technique to employ at a given use-case.
+
+To bring it full circle, the pretrained model referenced in this article was iniitialized using a trained SOTA-level network on shorter sentences.
+
+I wonder what the most common business use cases are where _cold-start_ old-school neural networks continues to be valuable.
