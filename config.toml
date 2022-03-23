@@ -1,5 +1,4 @@
 baseURL = 'mad-start.github.io'
 languageCode = 'en-us'
 title = "Steven's Blog"
-theme = "ananke"
 theme = "beautifulhugo"
