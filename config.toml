@@ -1,4 +1,4 @@
-baseURL = 'blog.tartakovsky.org'
+baseURL = 'https://blog.tartakovsky.org'
 languageCode = 'en-us'
 title = "Steven's Blog"
 theme = "ananke"
