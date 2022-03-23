@@ -1,4 +1,4 @@
-baseURL = 'mad-start.github.io'
+baseURL = 'blog.tartakovsky.org'
 languageCode = 'en-us'
 title = "Steven's Blog"
 theme = "ananke"

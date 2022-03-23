@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Steven's Blog</title><link>mad-start.github.io/</link><description>Recent content on Steven's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 22 Mar 2022 22:54:35 -0700</lastBuildDate><atom:link href="mad-start.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Warm Start Learning</title><link>mad-start.github.io/posts/warm-start-learning/</link><pubDate>Tue, 22 Mar 2022 22:54:35 -0700</pubDate><guid>mad-start.github.io/posts/warm-start-learning/</guid><description>Let&amp;rsquo;s say you&amp;rsquo;re training a text classification system, for example, to automatically classify support tickets into buckets, &amp;ldquo;urgent&amp;rdquo; and &amp;ldquo;not urgent&amp;rdquo;. You have historical data on the support tickets and some labels on whether or not it was urgent.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Steven&#39;s Blog</title>
+    <link>/</link>
+    <description>Recent content on Steven&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Mar 2022 22:54:35 -0700</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Warm Start Learning</title>
+      <link>/posts/warm-start-learning/</link>
+      <pubDate>Tue, 22 Mar 2022 22:54:35 -0700</pubDate>
+      
+      <guid>/posts/warm-start-learning/</guid>
+      <description>Let&amp;rsquo;s say you&amp;rsquo;re training a text classification system, for example, to automatically classify support tickets into buckets, &amp;ldquo;urgent&amp;rdquo; and &amp;ldquo;not urgent&amp;rdquo;. You have historical data on the support tickets and some labels on whether or not it was urgent.
 The goal is to develop a useful predictive model to help triage these tickets.
 Below, we describe a handful of techniques that are worth considering when building a binary model.
-The main definition we will have is warm-start learning, as this is the category of techniques I will describe.</description></item><item><title>My First Post</title><link>mad-start.github.io/posts/my-first-post/</link><pubDate>Tue, 22 Mar 2022 22:47:42 -0700</pubDate><guid>mad-start.github.io/posts/my-first-post/</guid><description>This is my first post.</description></item></channel></rss>
+The main definition we will have is warm-start learning, as this is the category of techniques I will describe.</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>/posts/my-first-post/</link>
+      <pubDate>Tue, 22 Mar 2022 22:47:42 -0700</pubDate>
+      
+      <guid>/posts/my-first-post/</guid>
+      <description>This is my first post.</description>
+    </item>
+    
+  </channel>
+</rss>
