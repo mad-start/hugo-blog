@@ -24,4 +24,4 @@ I assume the thesis of HuggingFace was something like:
 
  Model training is hard and takes lots of infrastructure. Infrastructure is costly and push button neural network training is not yet democratized with models of scale. Models are large with - in a growning number of cases and domains beyond NLP, billions of parameters.
 
-For most of us data scientists and machine learners, the days training of models from scratch (i.e. determining the "best" way to randomly initialize parameters), are over. Noadays, warm-start learning is what we should expect with complext data. It's now a question of which warm-start technique to employ at a given use-case.
+For most of us data scientists and machine learners, the days training of models from scratch (i.e. determining the "best" way to randomly initialize parameters), are over. Noadays, warm-start learning is what we should expect with complex data. It's now a question of which warm-start technique to employ at a given use-case.
