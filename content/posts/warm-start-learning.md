@@ -20,10 +20,8 @@ The main definition we will have is _warm-start_ learning, as this is the catego
 
 3. **Nearest neighbor search** Here don't run any training, 1) embed the result and 2) be ready to determine whether the majority of top-k, or top-k% nearest neighbors are "urgent"; if so, label them urgent. k=1 may be a good starting point. Or, time permitting, a validation procedure can be done to select k.
 
-Model training is hard and takes lots of infrastructure. Infrastructure is costly and push button neural network training is not yet democratized with models of scale. Models are large with - in a growning number of cases and domains beyond NLP, billions of parameters.
+For most data scientists and machine learners, the days training of models from scratch (i.e. determining the "best" way to randomly initialize parameters), are over. Noadays, warm-start learning is what we should expect with complex data. It's now a question of which warm-start technique to employ at a given use-case.
 
-For most of us data scientists and machine learners, the days training of models from scratch (i.e. determining the "best" way to randomly initialize parameters), are over. Noadays, warm-start learning is what we should expect with complex data. It's now a question of which warm-start technique to employ at a given use-case.
+Even the pretrained model referenced in this article was fully tuned using a pretrained SOTA-level network.
 
-To bring it full circle, the pretrained model referenced in this article was iniitialized using a trained SOTA-level network on shorter sentences.
-
-I wonder what the most common business use cases are where _cold-start_ old-school neural networks continues to be valuable.
+Where can I find some 2022 examples of training large neural networks (100+ million parameters), _not_ from pretrained networks, in industry?
