@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Steven's Blog</title><link>https://blog.tartakovsky.org/tags/</link><description>Recent content in Tags on Steven's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://blog.tartakovsky.org/tags/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://blog.tartakovsky.org/xml/base.min.xml"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Steven's Blog</title><link>https://blog.tartakovsky.org/tags/</link><description>Recent content in Tags on Steven's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://blog.tartakovsky.org/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Warm-start Learning</title><link>https://blog.tartakovsky.org/posts/warm-start-learning/</link><pubDate>Tue, 22 Mar 2022 22:54:35 -0700</pubDate><guid>https://blog.tartakovsky.org/posts/warm-start-learning/</guid><description>&lt;p>Let&amp;rsquo;s say you&amp;rsquo;re training a text classification system, for example, to automatically classify support tickets into buckets, &amp;ldquo;urgent&amp;rdquo; and &amp;ldquo;not urgent&amp;rdquo;. You have historical data on the support tickets and some labels on whether or not it was urgent.&lt;/p>
+&lt;p>The goal is to develop a useful predictive model to help triage these tickets.&lt;/p>
+&lt;p>Below, we describe a handful of techniques that are worth considering when building a binary model.&lt;/p>
+&lt;p>The main definition we will have is &lt;em>warm-start&lt;/em> learning, as this is the category of techniques I will describe. These techniques are characterized by using a pretrained neural network language model, such as &lt;a href="https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2">this one&lt;/a> from Microsoft.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Full tuning&lt;/strong> Freeze none of the weights, run your speciic data through adjust the weights based on gradients computed on cross entropy error, exactly like training a neural network on a binary classification task. Read more about fine tuning in pytorch &lt;a href="https://huggingface.co/docs/transformers/training">here&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Last layer tuning&lt;/strong> Freeze all of the weights except the second-to-last last layer, and do the same as the previous step. This is like running logistic regression on the embeddings produced on the pretrained model.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Transfer learning&lt;/strong> A more general case of the previous step is Transfer learning. This time, use the embeddings and apply any classifier. So take it out of the neural net and use any classifier, not just Logistic Regression.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Nearest neighbor search&lt;/strong> Here don&amp;rsquo;t run any training, 1) embed the result and 2) be ready to determine whether the majority of top-k, or top-k% nearest neighbors are &amp;ldquo;urgent&amp;rdquo;; if so, label them urgent. k=1 may be a good starting point. Or, time permitting, a validation procedure can be done to select k.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>For most data scientists and machine learners, the days training of models from scratch (i.e. determining the &amp;ldquo;best&amp;rdquo; way to randomly initialize parameters), are over. Nowadays, warm-start learning is what we should expect with complex data. It&amp;rsquo;s now a question of which warm-start technique to employ at a given use-case.&lt;/p>
+&lt;p>Even the pretrained model referenced in this article was fully tuned using a pretrained SOTA-level network.&lt;/p>
+&lt;p>Where can I find some 2022 examples of training large neural networks (100+ million parameters), &lt;em>not&lt;/em> from pretrained networks, in industry?&lt;/p></description></item></channel></rss>
