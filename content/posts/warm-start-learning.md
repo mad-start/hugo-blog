@@ -16,11 +16,11 @@ The main definition we will have is _warm-start_ learning, as this is the catego
 
 1. **Last layer tuning** Freeze all of the weights except the second-to-last last layer, and do the same as the previous step. This is like running logistic regression on the embeddings produced on the pretrained model.
 
-3. **Transfer learning** A more general case of the previous step is Transfer learning. This time, use the embeddings and apply any classifer. So take it out of the neural net and use any classifier, not just Logistic Regresssion.
+3. **Transfer learning** A more general case of the previous step is Transfer learning. This time, use the embeddings and apply any classifier. So take it out of the neural net and use any classifier, not just Logistic Regression.
 
 3. **Nearest neighbor search** Here don't run any training, 1) embed the result and 2) be ready to determine whether the majority of top-k, or top-k% nearest neighbors are "urgent"; if so, label them urgent. k=1 may be a good starting point. Or, time permitting, a validation procedure can be done to select k.
 
-For most data scientists and machine learners, the days training of models from scratch (i.e. determining the "best" way to randomly initialize parameters), are over. Noadays, warm-start learning is what we should expect with complex data. It's now a question of which warm-start technique to employ at a given use-case.
+For most data scientists and machine learners, the days training of models from scratch (i.e. determining the "best" way to randomly initialize parameters), are over. Nowadays, warm-start learning is what we should expect with complex data. It's now a question of which warm-start technique to employ at a given use-case.
 
 Even the pretrained model referenced in this article was fully tuned using a pretrained SOTA-level network.
 
