@@ -1,7 +1,7 @@
 ---
-title: "Warm-start Learning"
+title: "What makes a good Vice President of Engineering"
 date: 2022-03-22T22:54:35-07:00
-draft: False
+draft: true
 ---
 
 How to become a startup VPE with Martin Casado?
