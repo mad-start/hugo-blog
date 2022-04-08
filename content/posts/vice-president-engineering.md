@@ -1,3 +1,9 @@
+---
+title: "Warm-start Learning"
+date: 2022-03-22T22:54:35-07:00
+draft: False
+---
+
 How to become a startup VPE with Martin Casado?
 
 Number 1 mistake: not taking the role seriously.
