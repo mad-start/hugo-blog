@@ -21,7 +21,7 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Build
+      - name: Make CNAME
         run: hugo && mv CNAME public/
 
       - name: Deploy
