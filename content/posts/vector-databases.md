@@ -15,12 +15,16 @@ I have been hearing about vector databases.... what is the difference between th
 
 Man it's crowded in here.
 
-| url                                                              | company  |
-|------------------------------------------------------------------|----------|
-| https://milvus.io                                                | milvus   |
-| https://pinecone.io                                              | pinecone |
-| https://jina.ai                                                  | jina     |
-| https://weaviate.io                                              | weaviate |
-| https://vespa.ai                                                 | vespa    |
-| https://cloud.google.com/vertex-ai/docs/matching-engine/overview | google   |
+ |company  | url                                                |
+|----------|------------------------------------------------------------------|
+ |milvus   | https://milvus.io                                                |
+ |pinecone | https://pinecone.io                                              |
+ |jina     | https://jina.ai                            |
+ |weaviate | https://weaviate.io                                              |
+ |vespa    | https://vespa.ai                                                 |
+ |google   | https://cloud.google.com/vertex-ai/docs/matching-engine/overview           |
+ |google   | https://min.io/About                                             |
+ |google   | https://vald.vdaas.org/                                          |
+ |google   | https://www.gsitechnology.com/content/Vector-Databases-Made-Easy |
+
 

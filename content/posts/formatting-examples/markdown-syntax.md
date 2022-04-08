@@ -8,7 +8,7 @@ tags = [
     "css",
     "html",
 ]
-categories = [
+categories = [  
     "themes",
     "syntax",
 ]
