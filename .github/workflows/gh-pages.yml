@@ -22,7 +22,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify && mv CNAME build
+        run: hugo --minify && mv CNAME public/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
