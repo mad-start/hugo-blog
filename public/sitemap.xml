@@ -12,36 +12,6 @@
     <loc>https://blog.tartakovsky.org/posts/</loc>
     <lastmod>2022-03-25T17:20:58-07:00</lastmod>
   </url><url>
-    <loc>https://blog.tartakovsky.org/posts/vector-databases/</loc>
-    <lastmod>2022-03-24T20:02:05-07:00</lastmod>
-  </url><url>
-    <loc>https://blog.tartakovsky.org/posts/warm-start-learning/</loc>
-    <lastmod>2022-03-22T22:54:35-07:00</lastmod>
-  </url><url>
-    <loc>https://blog.tartakovsky.org/categories/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.tartakovsky.org/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.tartakovsky.org/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.tartakovsky.org/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.tartakovsky.org/posts/formatting-examples/markdown-syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.tartakovsky.org/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.tartakovsky.org/tags/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.tartakovsky.org/categories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.tartakovsky.org/tags/privacy/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -51,14 +21,17 @@
     <loc>https://blog.tartakovsky.org/tags/shortcodes/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://blog.tartakovsky.org/tags/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.tartakovsky.org/tags/markdown/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.tartakovsky.org/posts/formatting-examples/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.tartakovsky.org/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.tartakovsky.org/posts/formatting-examples/math-typesetting/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.tartakovsky.org/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
@@ -68,5 +41,7 @@
   </url><url>
     <loc>https://blog.tartakovsky.org/about/</loc>
     <priority>0</priority>
+  </url><url>
+    <loc>https://blog.tartakovsky.org/categories/</loc>
   </url>
 </urlset>

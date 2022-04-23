@@ -35,3 +35,9 @@ Types of learning techniques:
  - teacher/student model
  - GANs
  - Nils Contrastive learning: https://arxiv.org/pdf/2104.08821.pdf
+
+Pinecone
+ straddling the search space, search teams, etc
+ and NLP AI etc .... 
+
+ Dmitry Kan and Max Irwin [interview](https://www.youtube.com/watch?v=blFe2yOD1WA).

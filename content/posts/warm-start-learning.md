@@ -1,7 +1,7 @@
 ---
 title: "Warm-start Learning"
 date: 2022-03-22T22:54:35-07:00
-draft: False
+draft: True
 ---
 
 Let's say you're training a text classification system, for example, to automatically classify support tickets into buckets, "urgent" and "not urgent". You have historical data on the support tickets and some labels on whether or not it was urgent.

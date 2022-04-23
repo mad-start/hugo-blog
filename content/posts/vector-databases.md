@@ -1,7 +1,7 @@
 ---
 title: "Vector Databases"
 date: 2022-03-24T20:02:05-07:00
-draft: False
+draft: True
 ---
 
 So I started learning about vector databases last week and got super excited. 
